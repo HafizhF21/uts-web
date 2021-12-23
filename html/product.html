@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <style>
+      body {
+        font: 16px/28px arial, sans-serif;
+        background-color: #eaeaea;
+        background-image: url(../img/bg-geometri.jpeg);
+        background-size: 100%;
+        color: #333;
+      }
+      .container {
+        width: 800px;
+        margin: auto;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 0px 30px #000;
+        background-image: url(../img/bg-mitekabar2.jpeg);
+      }
+      .header {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+      .header img {
+        background-size: 100%;
+        width: 520px;
+        height: 150px;
+      }
+      .menu {
+        margin-top: -10;
+      }
+      nav {
+        font-size: 15px;
+        margin-bottom: 40px;
+      }
+      nav ul {
+        display: block;
+        background: none;
+      }
+      nav ul li {
+        display: inline-block;
+        font-weight: bold;
+        list-style: none;
+      }
+      nav ul li a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        background: #0366ca;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 3px;
+        border: solid 2px #0366ca;
+        border-radius: 20px;
+      }
+      nav ul li a:hover {
+        display: block;
+        background: #fff;
+        border: solid 2px #0366ca;
+        color: #a501bb;
+        border-radius: 20px;
+      }
+      .bodybuku {
+        width: 100%;
+        min-height: 400px;
+        background: none;
+        padding: 40px;
+        box-sizing: border-box;
+        background: white;
+        border-top:2px solid#a501bb;
+      }
+      .bodybuku h1 {
+        text-align: center;
+        float: right;
+        margin-right: 25px;
+      }
+      .buku {
+        width: 30%;
+        height: 400px;
+      }
+      .buku img {
+        border-radius: 20px;
+        margin-left: 20px;
+        box-shadow: 0px 0px 5px rgb(150, 150, 150);
+      }
+      .detailbuku {
+        height: auto;
+        width: 40%;
+        font-size: 12px;
+        margin-right: 35px;
+        margin-top: -350px;
+        float: right;
+        font-family: verdana, arial, sans-serif;
+      }
+      .detailbuku h2{
+        color: #3e6e9e;
+      }
+      .detailbuku .promo {
+        margin-bottom: -15px;
+      }
+      .detailbuku .dbuku {
+        margin-bottom: -10px;
+      }
+      .detailbuku a {
+        background-color: #0366ca;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+        border: 2px solid #0366ca;
+      }
+      .detailbuku a:hover {
+        background-color: white;
+        color: #a501bb;
+        border: 2px solid #0366ca;
+      }
+      .menu {
+        margin-bottom: 30px;
+      }
+      .footer{
+        background-color: #a501bb;
+        padding: 1px;
+        border-bottom-right-radius: 17px;
+        border-bottom-left-radius: 17px;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+      }
+      .diskon{
+        width: 50px;
+        height: 50px;
+        background-size: 100%;
+        background-image: url(../img/promo.png);
+        position: absolute;
+        margin-top: -110px;
+        margin-left: 30px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="../img/logo-mitekabar-shadow.png" alt="logo" />
+      </div>
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../html/product.html">Product</a></li>
+            <li><a href="../html/service.html">Service</a></li>
+            <li><a href="../html/about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="bodybuku">
+        <h1>BUKU WEB DASAR</h1>
+        <div class="buku">
+          <img src="../img/buku-web-dasar.jpg" style="height: 350px; width: 350px" />
+        </div>
+        <div class="diskon"></div>
+        <div class="detailbuku">
+          <h2 class="promo">Promo Rp.99.999</h2>
+          <h2 style="color: red"><del>Rp.299.999</del></h2>
+          <p class="dbuku"><b>Detail Buku : </b></p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur minima praesentium voluptate libero possimus alias, eligendi illo consequatur ad ipsum autem quae iure rerum.</p>
+          <a href="">Pesan</a>
+        </div>
+      </div>
+
+   
+
+      <div class="footer">
+        <p class="copy">Copyright&copy2021 Hafizh Faizal</p>
+      </div>
+
+      </div>
+    </div>
+  </body>
+</html>
